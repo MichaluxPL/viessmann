@@ -51,7 +51,7 @@ mqtt_tls=0                      # Set to 1 to enable TLS support
 mqtt_tls_insecure=True          # Set to False to enable strict server's certificate hostname matching
 mqtt_tls_version=2              # 1 or 2
 mqtt_cacert=                    # CA certificate path/filename
-
+```
 # Language version
 Currently utility reports in polish, but if You want any other language, please change "Name" values in params.json
 
@@ -68,7 +68,7 @@ Temperatura wody na zasilaniu: 58.9 ºC
 Temperatura na zasilaniu ogrzewawania podłogowego: 21.6 ºC
 Całkowite zużycie energii: 0 kWh
 Ogrzewanie - zużycie energii: 0 kWh
-
+```
 # Known issues
 You tell me :)
 
@@ -83,7 +83,6 @@ Feel free to suggest :) If You want to rewrite or/add change anything - please f
 4. Input Domoticz devices idx in params.json for each parameter You want to be reported to Domoticz
 5. Configure MQTT parameters in config.cfg (use Topic In Prefix configured in Domoticz)
 ```
-
 # InfluxDB support
 ```
 1. Create database in InfluxDB
