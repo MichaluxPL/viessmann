@@ -1,0 +1,82 @@
+{
+    "CommonSupplyTemp": {
+        "Name":     "Temperatura wody na zasilaniu",
+        "Feature":  "heating.boiler.sensors.temperature.commonSupply",
+        "Key":      "value",
+        "Unit":     "ºC",
+        "Value":    0,
+        "DomoticzIdx": 0
+    },
+    "CircuitSupplyTemp": {
+        "Name":     "Temperatura na zasilaniu ogrzewawania podłogowego",
+        "Feature":  "heating.circuits.0.sensors.temperature.supply",
+        "Key":      "value",
+        "Unit":     "ºC",
+        "Value":    0,
+        "DomoticzIdx": 0
+    },
+    "DHWTemp": {
+        "Name":     "Temperatura CWU",
+        "Feature":  "heating.dhw.sensors.temperature.hotWaterStorage",
+        "Key":      "value",
+        "Unit":     "ºC",
+        "Value":    0,
+        "DomoticzIdx": 0
+    },
+    "OutsideTemp": {
+        "Name":     "Temperatura zewnętrzna",
+        "Feature":  "heating.sensors.temperature.outside",
+        "Key":      "value",
+        "Unit":     "ºC",
+        "Value":    0,
+        "DomoticzIdx": 0 
+    },
+    "GasConsumptionTotal": {
+        "Name":     "Całkowite zużycie gazu",
+        "Feature":  "heating.gas.consumption.total",
+        "Key":      "day",
+        "Unit":     "m3",
+        "Value":    0,
+        "DomoticzIdx": 0
+    },
+    "GasConsumptionHeating": {
+        "Name":     "Zużycie gazu - ogrzewanie podłogowe",
+        "Feature":  "heating.gas.consumption.summary.heating",
+        "Key":      "currentDay",
+        "Unit":     "m3",
+        "Value":    0,
+        "DomoticzIdx": 0
+    },
+    "GasConsumptionDHW": {
+        "Name":     "Zużycie gazu - CWU",
+        "Feature":  "heating.gas.consumption.summary.dhw",
+        "Key":      "currentDay",
+        "Unit":     "m3",
+        "Value":    0,
+        "DomoticzIdx": 0
+    },
+    "EnergyConsumptionTotal": {
+        "Name":     "Całkowite zużycie energii",
+        "Feature":  "heating.power.consumption.total",
+        "Key":      "day",
+        "Unit":     "kWh",
+        "Value":    0,
+        "DomoticzIdx": 0
+    },
+    "EnergyConsumptionHeating": {
+        "Name":     "Ogrzewanie - zużycie energii",
+        "Feature":  "heating.power.consumption.summary.heating",
+        "Key":      "currentDay",
+        "Unit":     "kWh",
+        "Value":    0,
+        "DomoticzIdx": 0
+    },
+    "EnergyConsumptionDHW": {
+        "Name":     "CWU - zużycie energii",
+        "Feature":  "heating.power.consumption.summary.dhw",
+        "Key":      "currentDay",
+        "Unit":     "kWh",
+        "Value":    0,
+        "DomoticzIdx": 0
+    }
+}
